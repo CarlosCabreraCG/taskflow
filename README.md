@@ -21,8 +21,15 @@ python -m pytest -v
 
 ## Avance del proyecto
 - [x] Hito 1 — Repositorio, código base y pruebas locales
-- [ ] Hito 2 — GitHub Flow, CI/CD y GitHub Pages
+- [x] Hito 2 — GitHub Flow, CI/CD y GitHub Pages
 - [ ] Hito 3 — Jira, sprint e integración con GitHub
 
 ## Evidencias
-(Se completa en cada hito: enlaces a PRs, workflows, sitio publicado y Jira.)
+### Enlaces a PRs
+https://github.com/CarlosCabreraCG/taskflow/pull/1
+https://github.com/CarlosCabreraCG/taskflow/pull/2
+https://github.com/CarlosCabreraCG/taskflow/pull/3
+https://github.com/CarlosCabreraCG/taskflow/pull/4
+
+### Sitio publicado
+https://carloscabreracg.github.io/taskflow/
