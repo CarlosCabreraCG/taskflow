@@ -21,6 +21,9 @@ jobs:
     needs: lint 
     name: test (${{ matrix.python-version }})
     runs-on: ubuntu-latest
+    env:
+      APP_ENV: ${{ vars.APP_ENV }}
+      API_TOKEN: ${{ secrets.API_TOKEN }}
     strategy:
       fail-fast: false
       matrix:
@@ -42,3 +45,9 @@ jobs:
 
       - name: Ejecutar pruebas
         run: python -m pytest -v
+
+      - name: Verificar entorno y variables
+        run: |
+          echo "Ambiente: $APP_ENV"   
+          echo "Token: $API_TOKEN"  
+          test -n "$API_TOKEN" && echo "El secreto está disponible"
