@@ -1,0 +1,26 @@
+name: Reporte manual
+on:
+  workflow_dispatch:
+    inputs:
+      ambiente:
+        description: "¿Dónde ejecutar?"
+        type: choice
+        options: [desarrollo, pruebas, produccion]
+        default: desarrollo
+      dry_run:
+        description: "Solo simular"
+        type: boolean
+        default: true
+
+jobs:
+  reporte:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - run: |                          # usa "|" si el comando contiene ": "
+          echo "Ambiente elegido: ${{ inputs.ambiente }}"
+      - if: ${{ inputs.dry_run }}
+        run: |
+          echo "Modo simulación: no se hace ningún cambio"
+      - if: ${{ !inputs.dry_run }}
+        run: python -m taskflow
