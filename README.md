@@ -1,5 +1,5 @@
 # TaskFlow
-![CI](https://github.com/USUARIO/taskflow/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/CarlosCabreraCG/taskflow/actions/workflows/ci.yml/badge.svg)
 
 Gestor de tareas en Python · Proyecto integrador del curso **DevOps & Project Management**.
 
@@ -30,6 +30,17 @@ https://github.com/CarlosCabreraCG/taskflow/pull/1
 https://github.com/CarlosCabreraCG/taskflow/pull/2
 https://github.com/CarlosCabreraCG/taskflow/pull/3
 https://github.com/CarlosCabreraCG/taskflow/pull/4
+https://github.com/CarlosCabreraCG/taskflow/pull/5
+https://github.com/CarlosCabreraCG/taskflow/pull/6
+https://github.com/CarlosCabreraCG/taskflow/pull/7
+https://github.com/CarlosCabreraCG/taskflow/pull/8
+https://github.com/CarlosCabreraCG/taskflow/pull/9
+https://github.com/CarlosCabreraCG/taskflow/pull/10
+https://github.com/CarlosCabreraCG/taskflow/pull/11
+https://github.com/CarlosCabreraCG/taskflow/pull/12
+
+### Fork a compañero @mechatroniccoder
+https://github.com/CarlosCabreraCG/taskflowfork
 
 ### Sitio publicado
 https://carloscabreracg.github.io/taskflow/
